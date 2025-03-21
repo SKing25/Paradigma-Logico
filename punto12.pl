@@ -3,5 +3,5 @@
 % por cada una de las primeras 40 horas
 % Se usa el if(->) else(;) de prolog
 
-salario(Horas, Salario) :-
+salarioHoras(Horas, Salario) :-
     (Horas =< 40 -> Salario is 10000 * Horas; Salario is 40000 + (Horas - 40) * 20000).
